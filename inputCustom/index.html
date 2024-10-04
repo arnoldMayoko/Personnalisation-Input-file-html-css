@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="style.css">
+    <title>inputcustom</title>
+</head>
+<body>
+    <!-- *******************EXPLICCATION****************************** -->
+        <!-- Les étapes pour personnaliser un input de type file:
+        1 ajouter un input de type file et un label
+        2 à l'interieur du label ajouter un attribu for
+        3 à l'interieur de l'input ajouter un id
+        4 utiliser les memes valeurs pour l'id et pour l'attribu for 
+        EX: attribut for = "image"  id="image" dans l'input,
+        5 Mettre l'inpu en display none pour le faire disparaitre
+        6 Styliser le lable car à présent il devient clickable -->
+    <section class="container">
+        <label for="img">
+        <i class="fa-solid fa-cloud-arrow-down"></i>  
+        <p>Importer un fichier</p>
+        </label>
+        <input type="file" name="" id="img" accept="image/*">
+    </section>
+</body>
+</html>
